@@ -1,0 +1,31 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id='title'>The Society Survey</h1>
+<h2 id='description'>Thank you for your participation</h2>
+<form id='survey-form'>
+  <label for='name' id='name-label'><p>Name:<label>
+    <input id='name' type='text' placeholder='Enter Name' required></p>
+  <label for='number' id='number-label'><p>Number:</label>
+    <input id='number' type='number' min='7' max='1000000000000000'placeholder='Enter Phone Number' required></p>
+  <label for='email' id='email-label' > <p>Email:</label>
+    <input id='email' type='email' placeholder='Enter Email' required></p>
+    
+    <p>Your Age</p>
+    <select id='dropdown'>
+      <option>18+</option>
+      <option>50+</option>
+      </select><br><br>
+    <p>Gender:
+    <input type='radio' name='Gender' value='M'>Male
+    <input type='radio' name='Gender' value='F'>Female
+    <input type='radio' name='Gender'value='RNS'>Rather Not Say
+      <br><br>
+      <p>Marital Status:
+    <input type='checkbox' name='H' value='Yes'>Single
+      <input type='checkbox' name='H' value='No'>Married
+        </p>
+    <br><br>
+    <textarea id='comment' placeholder='You liked the survey?'></textarea>
+    <br><br>
+    <button id='submit' type='submit'>SUBMIT</button>
+  </form>
